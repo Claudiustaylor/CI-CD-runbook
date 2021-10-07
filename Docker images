@@ -1,0 +1,9 @@
+# A list of good Docker Images to use
+
+Image	Use
+
+circleci/node	For Node.JS server-side and networking applications.
+circleci/postgres	For tasks that require PostgreSQL database functions.
+circleci/python	For job that need to run Python or pip.
+alpine:latest	A lightweight container for simple tasks.
+amazon/aws-cli	For tasks that require the AWS CLI and related tools.
