@@ -1,0 +1,15 @@
+#Trigger	Description
+
+Git Branch Commit	Commit or merge to a branch-like master and push changes to the branch in central repository to start a new build.
+
+New Pull/Merge Request	Make changes in a branch or fork and create a pull/merge request to trigger a build.
+
+API	Make a POST or GET request to an API endpoint to kick off a new build.
+
+Schedule	Run a pipeline at a certain time each day or week based on a schedule.
+
+Other Pipelines	Another pipeline might finish a job and then trigger another pipeline.
+
+Chat Message	Using a chat tool, post a message containing special text in order to trigger a build.
+
+Command-Line Tool
