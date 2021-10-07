@@ -1,0 +1,13 @@
+
+
+#Job Option	Description
+
+<job_name>	The name of the job which shows up in the Circle CI web app.
+
+environment	Map of environment variables.
+
+docker	Docker image in which to run the job.
+
+branches	Rules to decide when to run this job by branch exclusions or inclusions.
+
+steps	Instructions to execute in the job.
