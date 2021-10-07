@@ -1,0 +1,11 @@
+#Value	Description
+
+pipeline.id	The ID of the currently running pipeline
+
+pipeline.number	An alternative numeric ID for the currently running pipeline
+
+pipeline.project.git_url	The URL of the triggering git event (ex: pull request URL)
+
+pipeline.project.type	Example: “github”
+
+pipeline.git.branch	The branch triggering the pipeline
