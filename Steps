@@ -1,0 +1,22 @@
+#Steps
+
+
+#Step Type	Description
+
+checkout	Checks out the source code. Common to have this in all jobs in CI.
+
+run	Runs a shell command. Can name the step or simply execute a script.
+
+when	A conditional step that has its own steps that are run if the condition is true.
+
+save_cache and restore_cache	Save and restore files or folders. Cleaned up after pipeline finishes.
+
+persist_to_workspace and attach_workspace	Like a cache, but files are available for 15 days after pipeline.
+
+add_ssh_keys	Adding some additional ssh keys to the job for a tool that needs them (i.e. Ansible).
+
+store_artifacts	Makes an artifact, or file, available for download via CircleCI web app or API.
+
+store_test_results	Stores test results from test runner so that results are visible in Circle CI web app in the Test Summary section.
+
+"Orbs"	Orbs, which we talked about already, are used like step types.
